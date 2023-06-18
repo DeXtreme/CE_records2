@@ -16,10 +16,15 @@
 function usage(){
 	# Print usage message
 	
-	echo "$0 [-B] [-b]\n"
+	echo "$0 [-B] [-b]"
+	echo "Personal records management system
+Add,search for or delete personal usernames,email address and passwords
+"
+
 	echo "Options:"
 	echo "	-B		Enable regular backups. Enabled by default"
 	echo " 	-b		Disable regualar backups"
+	echo "  -h		Print this message"
 
 	exit 0
 }
